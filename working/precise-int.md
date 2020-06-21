@@ -12,7 +12,7 @@ The `IsNaN` static method returns a boolean of whether `number` is NaN. To do so
 ___
 
 ### PreciseInt.IsFinite(PreciseInt number)
-The `IsFinite` static property returns a boolean of whether `number` is Infinity. To do so, it does the following steps:
+The `IsFinite` static method returns a boolean of whether `number` is Infinity. To do so, it does the following steps:
 
 1. let `result` equal to the `number`'s `isInfinity` property
 2. if `result` equals `true`
@@ -78,6 +78,10 @@ ___
 ___
 
 ### PreciseInt#Divide(IPreciseNumber otherNumber)
+
+1. Let `dividing` equal to the first digit in this precise int.
+2. Let `index` be an integer with the value of `1`
+3. Todo
 
 ___
 
